@@ -1,0 +1,74 @@
+
+
+.website-title {
+    text-align: center;
+    text-shadow: 1px 1px 2px pink;
+    font-size: 36;
+}
+
+.main-navbar {
+    display: flex;
+    text-align: center;
+    /* border: 2px solid purple; */
+    flex-direction: column;  
+    height: 100px;
+}
+
+.main-title {
+    display: flex;
+    text-align: center;
+    /* border: 2px solid yellow; */
+    flex-direction: column;
+    height: 100%;
+}
+
+.main-body {
+    /* border: 2px solid green; */
+    height: 100%;
+}
+
+.main-container {
+    display: flex;
+    text-align: center;
+    /* border: 2px solid red; */
+    flex-direction: column;
+    height: 610px;
+    justify-content: center;
+}
+
+.central-banner {
+    display: flex;
+    text-align: center;
+    /* border: 2px solid blue; */
+    flex-direction: column;
+}
+
+.coming-soon-copy {
+    text-align: center;
+    text-shadow: 2px 2px 2px pink;
+    font-size: xx-large;
+}
+
+body {
+    margin: 0;
+    box-sizing: border-box;
+    background-image: url('../img/crocgaze_bckgrnd_horizontal_2.png');
+    /* background-repeat: no-repeat; */
+     background-size: auto;
+    background-position: top;
+    background-color: black;
+    color: white;
+    font-weight: 550;
+    line-height: 1.6;
+    font-family: 'Bangers', 'cursive';
+  }
+
+
+  .page-footer {
+    clear: both;
+    /* background-color: red; */
+    text-align: center;
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: column;
+}
